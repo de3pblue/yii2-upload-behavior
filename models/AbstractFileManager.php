@@ -3,9 +3,9 @@
 namespace cyneek\yii2\uploadBehavior\models;
 
 use League\Flysystem\Filesystem;
-use yii\base\Object;
+use  yii\base\BaseObject;
 
-abstract class AbstractFileManager extends Object
+abstract class AbstractFileManager extends BaseObject
 {
 
     /** @var  Filesystem */
